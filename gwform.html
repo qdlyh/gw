@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>慈园阁</title>
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/gouwuche/gwcart.css">
+	<link rel="stylesheet" type="text/css" href="css/gouwuche/gwform.css">
+</head>
+<body>
+	<div class="home">
+		<div class="head">
+			<div class="head-left">
+				<ul>
+					<li>欢迎来到慈园阁！</li>
+					<li><a href="">登录</a></li>
+					<li><a href="">免费注册</a></li>
+				</ul>
+			</div>
+			<div class="head-right">
+				<ul>
+					<li><a href="">手机版 <img src="images/shouji.jpg" alt=""></a></li>
+				<li class="head-nav"><a href="">联系客服 <img src="images/xiala.jpg" alt=""></a>
+					    <ul>
+					    	<li><a href="">联系客服</a></li>
+					    	<li><a href="">联系客服</a></li>
+					    </ul>
+			   </li>
+					<li><a href=""><img src="images/gouwu.jpg" alt="" style="float: left;"> 购物车0件</a></li>
+				<li class="head-nav"><a href="">会员中心 <img src="images/xiala.jpg" alt=""></a>
+					   <ul>
+					    	<li><a href="">会员中心</a></li>
+					    	<li><a href="">会员中心</a></li>
+					   </ul>
+				</li>
+				</ul>
+			</div>
+		 </div>	
+		 <div class="head-top">
+		 	<div class="head-logo">
+		 		<!--奉请热线文字图-->
+		 	</div>
+		 </div>	
+		 <div class="nav">
+		 	<ul>
+		 		<li class="active"><a href="">本命佛</a></li>
+		 		<li><a href="">生肖吉祥物</a></li>
+		 		<li><a href="">生肖运势</a></li>
+		 		<li><a href="">开运貔貅</a></li>
+		 		<li><a href="">风水家具</a></li>
+		 		<li><a href="">爱情姻缘</a></li>
+		 	</ul>
+		 </div>
+  <div class="section-1">
+    <div class="section-1-top">
+		  <ul>
+		 	<li>购物车</li>
+		 	<li>填写收货地址</li>
+		 	<li>支付订单</li>
+		 	<li>支付提交成功</li>
+		  </ul>
+	 </div>
+  </div> 
+
+<div class="content">
+<div class="section-2">
+
+   <!--填写信息-->
+     <div class="xinxi">
+     <form action="xinxi-from">
+      <span>您的姓名</span><input class="xinxi-box" name="username" type="text" placeholder=" 姓名"> 
+          <span class='colour-input1'>请输入姓名</span><br/>
+      <span>手机号码</span><input class="xinxi-box xinxi-sj" name="number" type="text" placeholder=" 手机号码">
+          <span class='colour-input1'>请输入手机号码</span><br/>
+
+   <!--城市地区-->
+         <div class="control-group">
+             <span>所在地区</span> 
+            <select name="location_p" id="location_p"></select>
+            <select name="location_c" id="location_c"></select>
+            <select name="location_a" id="location_a"></select>
+         </div>
+   <!--详细地址-->
+     <span>详细地址</span><input class="xinxi-box xinxi-dz" name="address" type="text" placeholder=" 请填写街道信息">
+              <span class='colour-input1'>请填写具体的地址信息</span><br/>
+   <!--留言-->
+      <span>留言</span>
+      <textarea class="xinxi-word" name="word" type="text" placeholder="如奉请多尊，请在此处留言"></textarea>
+    </form>
+ </div>
+</div>
+
+		 <div class="section-3">
+		 	<div class="section-3-box">
+ <table id="cartTable">
+    <thead>
+      <tr>
+        <th><label>
+            <input class="check-all check" type="checkbox"/>&nbsp;&nbsp;全选</label></th>
+        <th>商品</th>
+        <th>单价</th>
+        <th>数量</th>
+        <th>小计</th>
+        <th>操作</th>
+      </tr>
+    </thead>
+    <h4>确认产品信息</h4>
+    <tbody>
+      <tr>
+        <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+        <td class="goods"><img src="images/6450654.jpg" alt=""/><span>黑曜石本命佛</span></td>
+        <td class="price">100</td>
+        <td class="count"><span class="reduce"></span>
+          <input class="count-input" type="text" value="1"/>
+          <span class="add">+</span></td>
+        <td class="subtotal">100</td>
+        <td class="operation"><span class="delete">删除</span></td>
+      </tr>
+      <tr>
+        <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+        <td class="goods"><img src="images/6450654.jpg" alt=""/><span>黑曜石本命佛</span></td>
+        <td class="price">200</td>
+        <td class="count"><span class="reduce"></span>
+          <input class="count-input" type="text" value="1"/>
+          <span class="add">+</span></td>
+        <td class="subtotal">200</td>
+        <td class="operation"><span class="delete">删除</span></td>
+      </tr>
+      <tr>
+        <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+        <td class="goods"><img src="images/6450654.jpg" alt=""/><span>黑曜石本命佛</span></td>
+        <td class="price">300</td>
+        <td class="count"><span class="reduce"></span>
+          <input class="count-input" type="text" value="1"/>
+          <span class="add">+</span></td>
+        <td class="subtotal">300</td>
+        <td class="operation"><span class="delete">删除</span></td>
+      </tr>
+      <tr>
+        <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+        <td class="goods"><img src="images/6450654.jpg" alt=""/><span>黑曜石本命佛</span></td>
+        <td class="price">400</td>
+        <td class="count"><span class="reduce"></span>
+          <input class="count-input" type="text" value="1"/>
+          <span class="add">+</span></td>
+        <td class="subtotal">400</td>
+        <td class="operation"><span class="delete">删除</span></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="foot" id="foot">
+    <label class="fl select-all"><input type="checkbox" class="check-all check"/>&nbsp;&nbsp;全选</label>
+    <a class="fl delete" id="deleteAll" href="javascript:;">删除商品</a>
+    <!--<div class="fr closing" onclick="getTotal();">进入支付页面</div>-->
+    <input type="hidden" id="cartTotalPrice" />
+    <div class="fr total">合计：<span class="bhyf">(不含邮费) </span>￥<span id="priceTotal">0.00</span></div>
+    <div class="fr selected" id="selected">已选商品<span id="selectedTotal">0</span>件</div>
+    <div class="selected-view">
+      <div id="selectedViewList" class="clearfix">
+        <div><img src="images/1.jpg"><span>取消选择</span></div>
+      </div>
+      <span class="arrow">◆<span>◆</span></span> </div>
+  </div>
+  		 <!--支付方式-->
+        <div class="money-zf">
+          <form action="" method="get"> 
+                    <label><input name="Sex" type="radio" value="" /> <img src="images/wxzf.jpg" alt="">微信支付 </label>
+                    <label><input name="Sex" type="radio" value="" /> <img src="images/hdfk.jpg" alt="">货到付款 </label> 
+          </form>
+        </div>
+   </div>
+</div>
+		     <div class="money-btn"><a href="">进入支付页面</a></div>
+ </div>	  
+		 <footer class="footer">
+		 	 <div class="footer-box">
+		 	 	<ul>
+		 	 		<li>
+		 	 			<h4>走进慈园阁</h4>
+		 	 			<a href="">最新动态</a><br/>
+		 	 			<a href="">品牌介绍</a><br/>
+		 	 			<a href="">法师结缘</a><br/>
+		 	 			<a href="">联系方式</a><br/>
+		 	 		</li>
+		 	 		<li>
+		 	 			<h4>品质保证</h4>
+		 	 			<a href="">开光证书</a>
+		 	 		</li>
+		 	 		<li>
+		 	 			<h4>服务体系</h4>
+		 	 			<a href="">最新动态</a><br/>
+		 	 			<a href="">退换货条款</a><br/>
+		 	 			<a href="">法师结缘</a><br/>
+		 	 			<a href="">联系方式</a><br/>
+		 	 		</li>
+		 	 		<li>
+		 	 			<h4>其他说明</h4>
+		 	 			<a href="">配送说明及包装方式</a><br/>
+		 	 			<a href="">本命佛包装及附件</a><br/>
+		 	 			<a href="">常见问题解答</a><br/>
+		 	 		</li>
+		 	 	</ul>
+           <div class="footer-box2">
+              <h4>添加大师微信号 【icyycch845836】</h4>
+               <div class="footer-box2-wx">
+                   <span class="footer-wx-span">享受一对一大师服务，咨询更多运程，改善个人运势</span>
+                    <img src="images/20170506151701.png" alt="">
+               </div>
+           </div>
+		 	 </div>
+		 </footer>
+		 <p style="text-align: center;color:#888888;background: #ffffff;">慈园阁十二生肖本命佛</p>
+	</div>
+	<script type="text/javascript" src="js/gouwuche/gwcart.js"></script>
+	<script type="text/javascript" src="js/gouwuche/chengshi.js"></script>
+	<script type="text/javascript" src="js/gouwuche/gwform.js"></script>
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript">
+              $(function(){
+	    	$('.head-nav').mouseover(function(){
+	    		$(this).children('ul').show()
+	    	})
+	    	$('.head-nav').mouseout(function(){
+	    		$(this).children('ul').hide()
+	    	})
+	    })
+
+               //地区
+     new PCAS('location_p', 'location_c', 'location_a', '北京市', '', '');　
+
+//产品外边框
+　　　$('.wpcolor').click(function(){
+    　　　$(this).toggleClass('wpcolor-a');
+　　　})
+
+   //命名    
+          var username_1 = $('input[name="username"]'),
+              number_1 = $('input[name="number"]'),
+              canpin_1 = $('input[name="product"]'),
+              address_1 = $('input[name="address"]');
+  //用户名           
+           $(username_1).focus(function(){
+          $(this).next().removeClass('colour-input1').addClass('colour-input2'); 
+           }).blur(function(){
+            if ($(this).val().length >= 2 && $(this).val().length <=10 && $(this).val() !='') {
+              $(this).next().text('输入成功').removeClass('colour-input1').addClass('colour-input4'); 
+              Name = true;
+            }else{
+                $(this).next().text('请输入正确的姓名').removeClass('colour-input1').removeClass('colour-input4').addClass('colour-input3'); 
+            }
+           })
+  //手机号
+           $(number_1).focus(function(){
+              $(this).next().removeClass('colour-input1').addClass('colour-input2');
+
+            }).blur(function(){
+              if($(this).val().match(/^[1][3][0-9]{9}$/) && $(this).val()!=''){
+                $(this).next().text('输入成功').removeClass('colour-input1').addClass('colour-input4');
+                Number1 = true; 
+              }else{
+              $(this).next().text('请输入正确的手机格式号码').removeClass('colour-input1').removeClass
+              ('colour-input4').addClass('colour-input3');  
+              }
+            })
+      
+  //详细地址
+              $(address_1).focus(function(){
+            $(this).next().removeClass('colour-input1').addClass('colour-input2'); 
+
+           }).blur(function(){
+            if ($(this).val().length >= 2 && $(this).val().length <=300  && $(this).val() !='') {
+              $(this).next().text('输入成功').removeClass('colour-input1').addClass('colour-input4'); 
+              address1 = true;
+            }else{
+                $(this).next().text('请填写收货地址').removeClass('colour-input1').removeClass('colour-input4').addClass('colour-input3'); 
+            }
+           }) 
+   //按钮验证
+             $('.money-btn').click(function(){
+               if ($(username_1).val().length ==0 && $(number_1).val().length==0 && $(address_1).val().length==0) {
+                   alert('请填写正确信息')
+               }else{
+                   alert('提交成功')
+               }
+            })
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+*{padding: 0;margin: 0;list-style-type:none; text-decoration:none;}
+
+/*顶部菜单*/
+.head{
+	height: 30px;
+	background: #F5F5F5;
+}
+.head ul li a:hover{
+    color: #F40;
+}
+.head ul li a{
+    color:#999999;
+    font-size: 14px;
+    text-decoration:none;
+}
+.head-left ul{
+	padding-left: 15%;
+	line-height: 30px;
+}
+.head-right ul{
+	padding-right: 15%;
+	line-height: 30px;
+}
+.head-left ul li{
+    float: left;
+    padding-left: 30px;
+}
+.head-right ul li{
+    float: right;
+    padding-right: 30px;
+    position: relative;
+}
+
+/*二级菜单*/
+.head-nav ul{
+	width: 120px;
+	height: 80px;
+	background:#F7F7F7;
+	border: 1px solid #cccccc;
+	position: absolute;
+	display: none;
+}
+.head-right img{
+    float: right;
+}
+.head-top{
+	height: 100px;
+	background-image:url(../images/nav.jpg);             /*logo背景图*/
+}
+.head-logo{
+	height: 74px;
+	background-image:  url(../images/logo.png);   /*奉请热线文字图*/
+	background-repeat:no-repeat;
+    background-position:center;
+}
+.nav{
+	background: #633900;
+	height: 50px;
+}
+.nav ul{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.nav ul li{
+	float: left;
+	line-height: 50px;
+    margin-left: 30px;
+    text-align: center;
+}
+.nav ul a{
+	display:inline-block;
+	width: 165px;
+	height:50px;
+	color: #ffffff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;	
+}
+.nav ul li a:hover{
+	background:#CC9900;
+}
+.active a{
+	background: #CC9900;
+}
+.footer{
+	height: 160px;
+	padding-top: 30px;
+	background: #ffffff;
+}
+/*.footer-box ul{
+	padding-left: 5%;
+}*/
+.footer-box{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.footer-box ul li{
+	float: left;
+	padding-left: 40px;
+}
+.footer-box h4{
+	color: #633816;
+	margin-bottom: 5px;
+}
+.footer-box ul li a{
+	font-size: 14px;
+	color: #8D6241;
+}
+.footer-box2{
+	float: right;
+	/*padding-right: 20%;*/
+}
+.footer-box2 h4{
+	color: #8D6241;
+}
+.footer-box2-wx{
+	width: 230px;
+	height: 110px;
+	margin-top: 20px;
+}
+.footer-wx-span{
+	float:left;
+	width: 115px;
+	height: 95px;
+	padding-right: 10px;
+	color: #8D6241; 
+}
+
+
+

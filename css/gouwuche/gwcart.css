@@ -1,0 +1,314 @@
+.home{
+   min-width:1200px;
+   background: #F5F5F5;
+}
+.content{
+  max-width: 1200px;
+  background: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.section-1{
+  max-width: 1200px;
+  margin: 10px auto;
+}
+.section-1-top{                    /* 购物信息栏背景图 */ 
+  width: 719px; 
+  height: 50px;
+  background-image:url(../../images/1651656.jpg); 
+  margin:left;
+}
+.section-1-top ul li{                /* 购物信息栏 */ 
+  float: left;
+  line-height: 50px;
+  font-size: 17px;
+  padding-right: 55px;
+  padding-left: 30px;
+  color: #ffffff;
+}
+/* 支付按钮  */
+.money-zf{
+  width: 300px;
+  margin-top: 20px;
+} 
+.money-zf form label{
+  padding-left: 20px;
+  cursor:pointer;
+}
+
+.money-btn{
+  margin: 0 auto;
+  text-align: center;
+  padding:60px 0 50px 30%;
+}
+.money-btn a{
+  display:block;
+  width: 50%;
+  padding: 15px 50px 15px;
+  font-size: 18px;
+  color: #ffffff;
+  background:#91110A;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.money-btn a:hover{
+  background: #B22222;
+}
+
+
+
+
+/* 购物车商品 */
+.section-3 table{
+	border-collapse:collapse;
+	border-spacing:0;border:0;
+}
+.clearfix{
+	display:inline-table
+}
+.clearfix{
+	display:block
+}
+.fl{
+	float:left;
+}
+.fl:hover{
+	color: #ff0000;
+	cursor: pointer;
+}
+.fr{
+	float:right;
+}
+.section-3-box table{
+	text-align:center;
+	width:100%;
+}
+.section-3-box table{
+	border:1px solid #cccccc;
+}
+.section-3-box table td{
+	border-bottom: 1px solid #cccccc;
+}
+.section-3-box table th{
+	background:#ffffff;
+	border-top:1px solid #cccccc;
+	height:30px;
+}
+.section-3-box table td{
+	padding:10px;
+	color:#444444;
+}
+.section-3-box table tbody tr:hover{
+	background:RGB(238,246,255);
+}
+.checkbox{
+	width:80px;
+}
+.check-all{ 
+	vertical-align:middle;
+}
+.goods{
+	width:350px;
+}
+.goods span{
+	width:200px;
+	margin-top:20px;
+	text-align:left;
+	float:left;
+}
+.goods img{
+	width:100px;
+	height:80px;
+	margin-right:10px;
+	float:left;
+}
+.price{
+	width:150px;
+}
+.count{
+	width:90px;
+}
+.count .add, .count input, .count .reduce{
+	float:left;
+	margin-right:-1px;
+	position:relative;z-index:0;
+}
+.count .add, .count .reduce{
+	height:23px;
+	width:17px;
+	border:1px solid #e5e5e5;
+	background:#f0f0f0;
+	text-align:center;
+	line-height:23px;
+	color:#444444;
+}
+.count .add:hover, .count .reduce:hover{
+	color:#f50;
+	z-index:3;
+	border-color:#f60;
+	cursor:pointer;
+}
+.count input{
+	width:50px;
+	height:15px;
+	line-height:15px;
+	border:1px solid #aaa;
+	color:#343434;
+	text-align:center;
+	padding:4px 0;
+	background-color:#fff;
+	z-index:2;
+}
+.subtotal{
+	width:150px;
+	color:red;
+	font-weight:bold;
+}
+.operation span:hover,.operation a:hover{
+	cursor:pointer;
+	color:#ff0000;
+	text-decoration:underline;
+}
+.foot{
+	margin-top:0px;
+	color:#666;
+	height:48px;
+	border:1px solid #c8c8c8;
+	border-top:0;
+	background-color:#eaeaea;
+	background-image:linear-gradient(RGB(241,241,241),RGB(226,226,226));
+	position:relative;z-index:8;
+}
+.foot div, .foot a{
+	line-height:48px;
+	height:48px;
+}
+.foot .select-all{
+	width:80px;
+	height:48px;
+	line-height:48px;
+	color:#666;
+	text-align:center;
+}
+.foot .delete{
+	padding-left:10px;
+}
+/*.foot .closing{                         结算按钮
+	border-left:1px solid #c8c8c8;
+	width:103px;
+	text-align:center;
+	color:#ff0000;
+	font-weight:bold;
+	cursor:pointer;
+	background-image:linear-gradient(RGB(241,241,241),RGB(226,226,226));
+}
+.foot .closing:hover{
+	background-image:linear-gradient(RGB(226,226,226),RGB(241,241,241));
+	color:#333333;
+}*/
+.bhyf{
+	font-size: 14px;
+	color:#767676;
+}
+.foot .total{
+	margin:0 20px;
+	cursor:pointer;
+}
+.foot  #priceTotal, .foot #selectedTotal{
+	color:#ff0000;
+	font-family:"Microsoft Yahei";
+	font-weight:bold;
+}
+.foot .selected{
+	cursor:pointer;
+}
+.foot .selected .arrow{
+	position:relative;top:-3px;
+	margin-left:3px;
+}
+.foot .selected .down{
+	position:relative;
+	top:3px;
+	display:none;
+}
+.show .selected .down{
+	display:inline;
+}
+.show .selected .up{
+	display:none;
+}
+.foot .selected:hover .arrow{
+	color:red;
+}
+.foot .selected-view{
+	width:938px;
+	border:1px solid #c8c8c8;
+	position:absolute;
+	height:auto;
+	background:#ffffff;
+	z-index:9;bottom:48px;
+	left:-1px;
+	display:none;
+}
+.show .selected-view{
+	display:block;
+}
+.foot .selected-view div{
+	height:auto;
+}
+.foot .selected-view .arrow{
+	font-size:16px;
+	line-height:100%;
+	color:#c8c8c8;
+	position:absolute;
+	right:330px;
+	bottom:-9px;
+}
+.foot .selected-view .arrow span{
+	color:#ffffff;
+	position:absolute;
+	left:0px;
+	bottom:1px;
+}
+.delete{
+	color:#666;
+	text-decoration:none;
+}
+#selectedViewList{
+	padding:10px 20px 10px 20px;
+}
+#selectedViewList div{
+	display:inline-block;
+	position:relative;
+	width:100px;
+	height:80px;
+	border:1px solid #ccc;
+	margin:10px;
+	float:left;
+}
+#selectedViewList div img{
+	width:100px;
+	height:80px;
+	margin-right:10px;
+	float:left;
+}
+#selectedViewList div span{
+	display:none;
+	color:#ffffff;
+	font-size:12px;
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:60px;
+	height:18px;
+	line-height:18px;
+	text-align:center;
+	background:#000000;
+	cursor:pointer;
+}
+#selectedViewList div:hover span{
+	display:block;
+}

@@ -1,0 +1,154 @@
+.home{
+   min-width:1200px;
+   background: #F5F5F5;
+}
+.content{
+  max-width: 1200px;
+  background: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.section-1{
+  max-width: 1200px;
+  margin: 10px auto;
+}
+.section-1-top{                    /* 购物信息栏背景图 */ 
+  width: 719px; 
+  height: 50px;
+  background-image:url(../../images/156156165.jpg); 
+  margin:left;
+}
+.section-1-top ul li{                /* 购物信息栏 */ 
+  float: left;
+  line-height: 50px;
+  font-size: 17px;
+  padding-right: 55px;
+  padding-left: 30px;
+  color: #ffffff;
+}
+.section-3-box h4{
+  margin: 30px 0 10px 15px;
+  letter-spacing: 1px;
+}
+
+.top-h1{
+  color: #ffffff;
+  background:#851919;
+  font-size:1.2rem;
+  height: 30px;
+  line-height: 1.8rem;
+}
+.shux label{
+  width: 140px;
+  color: #fd0000;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+}
+.color-red{
+  color: #fd0000;
+}
+.shenp label{
+  color: #fd0000;
+  font-weight: bold;
+  cursor: pointer;       
+}
+.shenp img{
+  width: 40px;
+}
+.colour-input1{ 
+  color:#000000; 
+} 
+.colour-input2{ 
+  color:#00BBFF; 
+} 
+.colour-input3{ 
+  color:#FF3333 ; 
+} 
+  .colour-input4{ 
+  color:#33FF33;  
+}
+.xinxi-button:hover{
+  background:#00BBFF;
+}
+.wpcolor{
+  display: inline-block;
+  background:#EEEEEE;
+  width:85%;
+  margin-top:10px;
+  border: 1px solid #ffffff;
+}
+.wpcolor-a{
+  border: 1px solid #FD0000;
+}
+#sumMoney{
+  font-size:18px;
+  font-weight:bold;
+  color:#FD0000;
+}
+.xinxi input{
+  margin:10px 1.5rem;
+}
+.xinxi select {
+  width: 150px;
+  height: 30px;
+  margin-left: 20px;
+}
+.xinxi-box{
+  width: 10%;
+  height:30px;
+}
+.xinxi-sj{     /*手机 */
+  width: 20%;
+}
+.xinxi-dz{      /* 详细地址 */
+  width: 50%;
+}
+.zhifu-1 input{
+  width:60px;
+  text-align: center;
+}
+.xinxi-word{
+  margin:10px 4.5%;
+  width: 50%;
+  height: 60px;
+}
+/* 表单信息 */
+.section-2{
+  margin-left: 3%;
+}
+.section-2 a{
+   text-decoration:none; 
+}
+
+/* 支付按钮  */
+.money-zf{
+  width: 300px;
+  margin-top: 20px;
+} 
+.money-zf form label{
+  padding-left: 20px;
+  cursor:pointer;
+}
+
+.money-btn{
+  margin: 0 auto;
+  text-align: center;
+  padding:60px 0 50px 30%;
+}
+.money-btn a{
+  display:block;
+  width: 50%;
+  padding: 15px 50px 15px;
+  font-size: 18px;
+  color: #ffffff;
+  background:#91110A;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.money-btn a:hover{
+  background: #B22222;
+}
